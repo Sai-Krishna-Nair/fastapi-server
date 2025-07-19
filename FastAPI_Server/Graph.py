@@ -161,7 +161,7 @@ def Router(state: GraphState) -> GraphState:
 def route_to_agents(state: GraphState) -> GraphState:
     agent_order = state.get(
         "agent_order",
-        [{"name": "Aggregator", "query": f"{state["input"]}", "dependencies": []}],
+        [{"name": "Aggregator", "query": f"{state['input']}", "dependencies": []}],
     )
 
     if "current_agent_index" not in state:
