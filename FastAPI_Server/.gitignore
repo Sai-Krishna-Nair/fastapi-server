@@ -1,0 +1,6 @@
+faiss_cache/
+FastAPI_Server/checkpoints.sqlite
+FastAPI_Server/checkpoints.sqlite-shm
+FastAPI_Server/checkpoints.sqlite-wal
+__pycache__/
+.env

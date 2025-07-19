@@ -1,0 +1,5 @@
+checkpoints.sqlite
+checkpoints.sqlite-shm
+checkpoints.sqlite-wal
+uploads/
+.env
